@@ -1,0 +1,29 @@
+Summary for the Targeted Aid Marketing Campaign Project
+
+1- Data Exploration and Preprocessing:
+    Loaded the sales data and performed initial exploratory data analysis (EDA) to understand the dataset's structure and characteristics.
+    Handled missing values and converted data types as needed.
+    Explored the distribution of various categorical features using bar plots.
+    Created dummy variables for categorical columns and encoded categorical features where necessary.
+    Visualized the distribution of sales over time and identified peaks in sales.
+
+2- K-Means Clustering:
+    Utilized K-Means clustering to segment customers based on their purchasing behavior.
+    Determined the optimal number of clusters using the elbow method.
+    Analyzed cluster characteristics, such as average quantity ordered, average sales, and preferred product types, to understand distinct customer segments.
+    Visualized cluster characteristics using histograms to identify patterns and differences among clusters.
+
+3- Dimension Reduction with PCA:
+    Reduced the dimensionality of the dataset using Principal Component Analysis (PCA) to visualize customer clusters in three-dimensional space.
+    Visualized customer clusters using a 3D scatter plot to gain insights into the distribution and separation of clusters.
+
+4- Autoencoder for Dimensionality Reduction:
+    Implemented an autoencoder neural network for dimensionality reduction.
+    Trained the autoencoder model on the scaled data and evaluated its performance.
+    Utilized the encoder part of the autoencoder to transform the data into a lower-dimensional space.
+    Applied K-Means clustering on the reduced data to identify customer clusters.
+    Analyzed and visualized cluster characteristics similar to the K-Means clustering approach.
+
+5- Conclusion:
+    Identified distinct customer segments based on purchasing behavior using both traditional clustering techniques and neural network-based dimensionality reduction methods.
+    Provided actionable insights for targeted marketing strategies, such as personalized promotions and product recommendations tailored to specific customer clusters.
