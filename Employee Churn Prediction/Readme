@@ -1,0 +1,27 @@
+This data science project focuses on predicting employee churn using machine learning techniques. Here's a summary of the key steps and findings:
+
+    Data Collection and Exploration:
+        The dataset contains various features including demographics, job-related factors, and satisfaction levels of employees.
+        Initial exploration revealed potential correlations between certain features and employee attrition.
+
+    Data Preprocessing:
+        Preprocessing steps included handling missing values, encoding categorical variables using one-hot encoding, and scaling numerical features.
+        The dataset was split into training and testing sets for model evaluation.
+
+    Exploratory Data Analysis:
+        Analysis revealed insights such as:
+            Younger employees tended to leave more.
+            Employees in certain job roles or marital statuses showed higher attrition rates.
+            Distance from home and years with the current manager influenced attrition.
+
+    Modeling and Evaluation:
+        Various machine learning models including Logistic Regression, Naive Bayes, K-Nearest Neighbors, Decision Trees, Support Vector Machines, Random Forest, and XGBoost were trained and evaluated.
+        Logistic Regression emerged as the best-performing model based on accuracy.
+
+    Artificial Neural Network (ANN):
+        An ANN model was also developed and trained, achieving competitive performance compared to traditional machine learning algorithms.
+
+    Conclusion:
+        The project demonstrated the effectiveness of machine learning in predicting employee churn.
+        Logistic Regression was identified as the most suitable model for this prediction task,Additionally the ANN demonstrated promising results providing insights that can help HR departments in devising retention strategies.
+        
