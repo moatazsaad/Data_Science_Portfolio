@@ -1,0 +1,18 @@
+Sales Forecasting Project Summary:
+
+  1- Data Exploration and Preprocessing:
+      Explored sales and store data to understand the dataset's structure and characteristics.
+      Handled missing values and converted data types as needed.
+      Visualized sales trends and distribution of various features.
+
+  2- Model Building:
+      Utilized the Prophet library for time series forecasting, considering factors like store promotions and holidays.
+      Developed models to forecast sales for individual stores, incorporating historical data and future projections.
+
+  3- Insights and Visualization:
+      Analyzed average sales and customer trends per month, day of the week, and day of the month.
+      Visualized store-specific sales patterns and the impact of promotions on sales performance.
+
+  4- Forecasting and Evaluation:
+      Generated sales forecasts for selected stores, accounting for school and state holidays.
+      Evaluated model performance and provided actionable insights for future sales planning
