@@ -17,3 +17,9 @@ Key Components:
 - Model Deployment: The model architecture is saved to a JSON file, along with the best model weights. These files can be used for deployment in production environments.
 
 This project serves as an example of using deep learning techniques for medical image classification, with potential applications in healthcare and disease diagnosis.
+
+Training Metrics:
+
+After 150 epochs, the training loss is 0.3955, and the training accuracy is 87.85%.
+The validation loss is 0.5316 and the validation accuracy is 78.85%.
+Test Accuracy: 72%
