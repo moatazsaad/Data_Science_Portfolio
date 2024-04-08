@@ -1,0 +1,19 @@
+Chest X-Ray Disease Classification Model
+
+This project aims to classify chest X-ray images into four categories: Covid-19, Normal, Viral Pneumonia, and Bacterial Pneumonia. The model is developed using deep learning techniques, specifically transfer learning with the ResNet50 architecture pretrained on the ImageNet dataset.
+
+Key Components:
+
+- Data Preparation: The dataset consists of chest X-ray images divided into training and validation sets, Images are resized and normalized using data generators.
+
+- Model Architecture: Transfer learning is employed using the ResNet50 model as a base. The model's architecture is extended with additional layers for classification, including pooling, flattening, dropout, and fully connected layers. The pre-trained layers of ResNet50 are frozen, and only the top layers are trained.
+
+- Training: The model is trained using the training data generator with early stopping and model checkpointing to prevent overfitting and save the best model weights.
+
+- Evaluation: After training, the model is evaluated using the validation set. Training and validation accuracy and loss are plotted to assess model performance.
+
+- Testing: The trained model is tested on a separate test dataset, and accuracy metrics are calculated. Predictions are visualized alongside true labels using sample images from the test set.
+
+- Model Deployment: The model architecture is saved to a JSON file, along with the best model weights. These files can be used for deployment in production environments.
+
+This project serves as an example of using deep learning techniques for medical image classification, with potential applications in healthcare and disease diagnosis.
