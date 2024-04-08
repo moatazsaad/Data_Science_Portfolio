@@ -20,6 +20,6 @@ This project serves as an example of using deep learning techniques for medical 
 
 Training Metrics:
 
-After 150 epochs, the training loss is 0.3955, and the training accuracy is 87.85%.
-The validation loss is 0.5316 and the validation accuracy is 78.85%.
-Test Accuracy: 72%
+After 200 epochs, the training loss is 0.3026, and the training accuracy is 90.65%.
+The validation loss is 0.467 and the validation accuracy is 80.7%.
+Test Accuracy: 72.5%
