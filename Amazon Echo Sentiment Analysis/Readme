@@ -7,13 +7,16 @@ This project focuses on sentiment analysis of Amazon Echo product reviews using 
     Irrelevant columns are dropped, and categorical variables are converted into dummy variables.
     Punctuation and stop words are removed from review texts, and CountVectorizer is used to transform text data into numerical feature vectors.
 
-3- Model Building:
+3- Handling Class Imbalance:
+    Class imbalance is addressed using SMOTETomek, a resampling technique that combines SMOTE (Synthetic Minority Over-sampling Technique) with Tomek links.
+
+4- Model Building:
     Three classification models; Naive Bayes, Logistic Regression and XGBoost models are trained on preprocessed data to predict sentiment based on review content.
     The models are evaluated using confusion matrices, accuracy scores, and classification reports.
 
-4- Model Evaluation:
+5- Model Evaluation:
     All models performed reasonably well in predicting sentiment with logistic regression achieving higher accuracy.
     Confusion matrices and classification reports offer detailed insights into precision, recall, and F1-score for each class.
 
-5- Overall Impact:
+6- Overall Impact:
     The project showcases the application of machine learning for sentiment analysis, providing valuable insights into customer perceptions of Amazon Echo products.
