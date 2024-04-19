@@ -8,11 +8,11 @@ This project focuses on sentiment analysis of Amazon Echo product reviews using 
     Punctuation and stop words are removed from review texts, and CountVectorizer is used to transform text data into numerical feature vectors.
 
 3- Model Building:
-    Two classification models, Naive Bayes and Logistic Regression, are trained on preprocessed data to predict sentiment based on review content.
+    Three classification models; Naive Bayes, Logistic Regression and XGBoost models are trained on preprocessed data to predict sentiment based on review content.
     The models are evaluated using confusion matrices, accuracy scores, and classification reports.
 
 4- Model Evaluation:
-    Both models perform reasonably well in predicting sentiment, with logistic regression achieving higher accuracy.
+    All models performed reasonably well in predicting sentiment with logistic regression achieving higher accuracy.
     Confusion matrices and classification reports offer detailed insights into precision, recall, and F1-score for each class.
 
 5- Overall Impact:
