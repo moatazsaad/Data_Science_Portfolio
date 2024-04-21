@@ -24,7 +24,7 @@ With access to extensive customer data spanning 2.5 years, the objective is to d
 
 4- Autoencoder for Dimensionality Reduction:
     Implemented an autoencoder neural network for dimensionality reduction.
-    Trained the autoencoder model on the scaled data and evaluated its performance.
+    Trained the autoencoder model on the scaled data.
     Utilized the encoder part of the autoencoder to transform the data into a lower-dimensional space.
     Applied K-Means clustering on the reduced data to identify customer clusters.
     Analyzed and visualized cluster characteristics similar to the K-Means clustering approach.
