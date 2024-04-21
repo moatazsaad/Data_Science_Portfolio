@@ -1,4 +1,9 @@
-Summary for the Targeted Aid Marketing Campaign Project
+Summary for the Targeted Aid Marketing Campaign Project:
+
+One of the primary challenges for marketers is gaining insight into their customers' preferences and requirements. 
+By comprehensively understanding the customer base, marketers can design targeted marketing campaigns tailored to meet specific needs. 
+Leveraging available customer data, data science and AI/ML techniques can facilitate market segmentation, enabling the identification of distinct customer segments. 
+With access to extensive customer data spanning 2.5 years, the objective is to divide the customer base into a minimum of three distinct groups for the purpose of creating targeted advertising campaigns.
 
 1- Data Exploration and Preprocessing:
     Loaded the sales data and performed initial exploratory data analysis (EDA) to understand the dataset's structure and characteristics.
