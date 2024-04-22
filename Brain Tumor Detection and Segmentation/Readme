@@ -1,0 +1,17 @@
+Summary:
+
+This project aims to develop an end-to-end solution for detecting and segmenting brain tumors from MRI images.
+
+The project workflow can be summarized as follows:
+
+1- Data Exploration: The dataset contains MRI images of brain tumors along with their corresponding masks. Exploratory data analysis (EDA) is performed to understand the distribution of classes and visualize sample images and their masks.
+
+2- Data Preparation: The dataset is split into training, validation, and testing sets. Image data generators are set up using Keras to preprocess and augment the data for training the models effectively.
+
+3- Tumor Detection Model (ResNet50): The project employs transfer learning with the ResNet50 architecture pre-trained on the ImageNet dataset. The model is fine-tuned on the brain MRI dataset to classify images into tumor and non-tumor classes. Model evaluation metrics such as accuracy, confusion matrix, and classification report are utilized to assess the model's performance.
+
+4- Tumor Segmentation Model (ResUNet): A custom Residual UNet (ResUNet) architecture is implemented for tumor segmentation. This model aims to localize tumors within brain MRI images by generating pixel-wise segmentation masks. The focal Tversky loss function is used for optimizing the model during training.
+
+5- Model Evaluation: The trained segmentation model is evaluated on the test dataset, and predictions are made to localize tumors within MRI images. The accuracy of tumor localization is calculated, and the results are visualized by overlaying predicted masks on the original images.
+
+The project demonstrates the integration of deep learning techniques for both tumor detection and segmentation tasks, offering potential applications in medical image analysis and clinical diagnosis. The models developed in this project can contribute to automating the process of brain tumor detection and assist radiologists in accurately analyzing MRI scans.
