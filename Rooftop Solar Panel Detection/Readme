@@ -1,0 +1,15 @@
+Description:
+Implemented a Convolutional Neural Network (CNN) model to detect rooftop solar panels from aerial images. The project involved data preprocessing, model building, and performance assessment using cross-validation techniques.
+
+Key Features:
+
+- Utilized a dataset consisting of aerial images and corresponding labels indicating the presence of solar panels.
+- Developed a CNN model architecture incorporating convolutional and batch normalization layers for image classification.
+- Employed Stratified K-Fold cross-validation for robust performance evaluation and visualization of model predictions.
+- Analyzed model performance metrics including True Positive Rate, False Positive Rate, and Area Under the ROC Curve (AUC) to assess detection accuracy.
+
+Results:
+
+- Achieved accurate detection of rooftop solar panels with an AUC of [insert AUC value] on the ROC curve.
+- Identified examples of True Positives, False Positives, True Negatives, and False Negatives to demonstrate model predictions.
+- Deployed the CNN model to identify solar panels in aerial images, facilitating sustainable energy planning and infrastructure development.
