@@ -1,0 +1,20 @@
+Project Overview:
+Sunspots are areas on the Sun's surface with strong magnetic fields, and their activity follows an 11-year cycle. This project aims to predict sunspot activity using an LSTM (Long Short-Term Memory) model.
+
+Data Source:
+The sunspots data is sourced from Kaggle, spanning from January 1749 to January 2021. The dataset includes monthly mean total sunspot numbers.
+
+Model Architecture:
+The LSTM model consists of convolutional and LSTM layers followed by densely connected layers. The model is trained using stochastic gradient descent with Huber loss as the loss function.
+
+Training and Optimization:
+The training data is windowed to capture temporal patterns, and a learning rate scheduler is employed to find the optimal learning rate. The model is trained with early stopping to prevent overfitting.
+
+Evaluation:
+The model is evaluated on the validation data using Mean Absolute Error (MAE). Additionally, the model's forecast is plotted against the actual sunspot data to visualize its performance.
+
+Results:
+The LSTM model demonstrates the ability to capture the cyclic nature of sunspot activity. The validation MAE indicates the model's accuracy in predicting sunspot numbers.
+
+Conclusion:
+The LSTM model shows promise in forecasting sunspot activity, which can contribute to better understanding solar dynamics and space weather prediction.
