@@ -1,0 +1,27 @@
+The data for this project was sourced from the Kaggle competition Challenges in Representation Learning: Facial Expression Recognition Challenge.
+Facial Keypoints Detection
+
+1- The facial keypoints detection process involves the following steps:
+
+- Data Loading and Exploration: The dataset is loaded, and exploratory data analysis is performed to understand the data distribution and structure.
+- Data Augmentation: Image augmentation techniques such as horizontal flipping, brightness adjustment, and vertical flipping are applied to increase the dataset's variability.
+- Model Architecture: A ResNet model is constructed for facial keypoints detection, trained using mean squared error as the loss function.
+- Model Evaluation: The trained model is evaluated on the test set using root mean squared error (RMSE) as the evaluation metric.
+
+2- Emotion Detection
+
+The emotion detection process consists of the following steps:
+
+- Data Loading and Exploration: The facial expression dataset is loaded and explored to understand the distribution of emotions.
+- Data Preprocessing: The pixel values are processed and resized to prepare them for model training.
+- Data Augmentation: Image augmentation techniques are applied to increase the dataset's diversity.
+- Model Architecture: A CNN model is built for emotion detection, with convolutional and fully connected layers.
+- Model Training: The model is trained using categorical cross-entropy loss and evaluated on the test set.
+- Model Evaluation: The trained model's performance is evaluated using accuracy metrics and visualized through confusion matrices and classification reports.
+
+3- Prediction
+
+A function is created to make predictions using both the facial keypoints detection model and the emotion detection model. Test images are plotted with predicted keypoints and emotions.
+Conclusion
+
+This project demonstrates the application of deep learning techniques for facial keypoints detection and emotion detection, showcasing the models' abilities to analyze and interpret facial expressions.
