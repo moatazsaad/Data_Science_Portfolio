@@ -1,15 +1,29 @@
-Description:
-Implemented a Convolutional Neural Network (CNN) model to detect rooftop solar panels from aerial images. The project involved data preprocessing, model building, and performance assessment using cross-validation techniques.
+Project Overview:
+In this project, I developed a deep learning model to automatically detect the presence of rooftop solar panels in images. 
+The goal was to create a robust system capable of identifying whether a given image contains solar panels or not.
 
-Key Features:
+Data Preprocessing:
+I started by loading the dataset, which consisted of images along with corresponding labels indicating the presence or absence of solar panels. 
+Using OpenCV, I read the images and normalized the pixel values to enhance model performance.
 
-- Utilized a dataset consisting of aerial images and corresponding labels indicating the presence of solar panels.
-- Developed a CNN model architecture incorporating convolutional and batch normalization layers for image classification.
-- Employed Stratified K-Fold cross-validation for robust performance evaluation and visualization of model predictions.
-- Analyzed model performance metrics including True Positive Rate, False Positive Rate, and Area Under the ROC Curve (AUC) to assess detection accuracy.
+Model Architecture:
+For the detection task, I designed a Convolutional Neural Network (CNN) architecture using TensorFlow/Keras. 
+The model comprised several convolutional and pooling layers, followed by batch normalization and dense layers. 
+The architecture was chosen to effectively capture spatial features in the images.
 
-Results:
+Training and Cross-Validation:
+To train the model, I employed a cross-validation strategy to ensure robustness and generalization. 
+Stratified K-Fold cross-validation was used to split the dataset into training and validation sets. 
+During training, I incorporated class weights to handle class imbalance, as there were more images without solar panels than with.
 
-- Achieved accurate detection of rooftop solar panels with an AUC of [insert AUC value] on the ROC curve.
-- Identified examples of True Positives, False Positives, True Negatives, and False Negatives to demonstrate model predictions.
-- Deployed the CNN model to identify solar panels in aerial images, facilitating sustainable energy planning and infrastructure development.
+Model Evaluation:
+After training, I evaluated the model's performance using various evaluation metrics such as accuracy, ROC curve, and confusion matrix. 
+These metrics provided insights into the model's ability to correctly classify images with and without solar panels.
+
+Prediction on Test Images:
+Once the model was trained and evaluated, I applied it to predict the presence of solar panels in unseen test images. 
+The predictions were made by feeding the test images through the trained model, and the results were analyzed to assess the model's real-world applicability.
+
+Conclusion:
+Overall, this project demonstrates the effectiveness of deep learning techniques in detecting rooftop solar panels from images. 
+By leveraging CNNs and appropriate evaluation methodologies, we can develop accurate and reliable models for various computer vision tasks, contributing to advancements in renewable energy monitoring and management.
