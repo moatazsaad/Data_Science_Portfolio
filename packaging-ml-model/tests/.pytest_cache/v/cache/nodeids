@@ -1,0 +1,5 @@
+[
+  "test_prediction.py::test_single_pred_not_none",
+  "test_prediction.py::test_single_pred_str_type",
+  "test_prediction.py::test_single_pred_validate"
+]
