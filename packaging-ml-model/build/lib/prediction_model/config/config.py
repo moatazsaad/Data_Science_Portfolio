@@ -1,3 +1,4 @@
+# contains all variables and paths 
 import pathlib
 import os
 import prediction_model
