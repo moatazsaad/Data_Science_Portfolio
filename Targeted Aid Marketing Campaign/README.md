@@ -1,34 +1,33 @@
-Summary for the Targeted Aid Marketing Campaign Project:
+# Targeted Aid Marketing Campaign Project
 
-One of the primary challenges for marketers is gaining insight into their customers' preferences and requirements. 
-By comprehensively understanding the customer base, marketers can design targeted marketing campaigns tailored to meet specific needs. 
-Leveraging available customer data, data science and AI/ML techniques can facilitate market segmentation, enabling the identification of distinct customer segments. 
-With access to extensive customer data spanning 2.5 years, the objective is to divide the customer base into a minimum of three distinct groups for the purpose of creating targeted advertising campaigns.
+## Summary  
+One of the primary challenges for marketers is gaining insight into customer preferences and requirements. By understanding the customer base, marketers can design targeted campaigns tailored to specific needs. Leveraging customer data and AI/ML techniques, this project focuses on market segmentation to identify distinct customer groups. Using 2.5 years of customer data, the objective is to segment the customer base into at least three groups for targeted advertising.
 
-1- Data Exploration and Preprocessing:
-    Loaded the sales data and performed initial exploratory data analysis (EDA) to understand the dataset's structure and characteristics.
-    Handled missing values and converted data types as needed.
-    Explored the distribution of various categorical features using bar plots.
-    Created dummy variables for categorical columns and encoded categorical features where necessary.
-    Visualized the distribution of sales over time and identified peaks in sales.
+## Steps & Methodology  
 
-2- K-Means Clustering:
-    Utilized K-Means clustering to segment customers based on their purchasing behavior.
-    Determined the optimal number of clusters using the elbow method.
-    Analyzed cluster characteristics, such as average quantity ordered, average sales, and preferred product types, to understand distinct customer segments.
-    Visualized cluster characteristics using histograms to identify patterns and differences among clusters.
+### 1. Data Exploration and Preprocessing  
+- Loaded sales data and performed Exploratory Data Analysis (EDA).  
+- Handled missing values and adjusted data types.  
+- Visualized categorical features and sales distribution over time.  
+- Created dummy variables and encoded categorical features.  
 
-3- Dimension Reduction with PCA:
-    Reduced the dimensionality of the dataset using Principal Component Analysis (PCA) to visualize customer clusters in three-dimensional space.
-    Visualized customer clusters using a 3D scatter plot to gain insights into the distribution and separation of clusters.
+### 2. K-Means Clustering  
+- Applied K-Means clustering to segment customers based on purchasing behavior.  
+- Used the **elbow method** to determine the optimal number of clusters.  
+- Analyzed cluster characteristics, including sales trends and product preferences.  
+- Visualized clusters using histograms.  
 
-4- Autoencoder for Dimensionality Reduction:
-    Implemented an autoencoder neural network for dimensionality reduction.
-    Trained the autoencoder model on the scaled data.
-    Utilized the encoder part of the autoencoder to transform the data into a lower-dimensional space.
-    Applied K-Means clustering on the reduced data to identify customer clusters.
-    Analyzed and visualized cluster characteristics similar to the K-Means clustering approach.
+### 3. Dimensionality Reduction with PCA  
+- Used **Principal Component Analysis (PCA)** to reduce dataset dimensionality.  
+- Created a 3D scatter plot to visualize customer clusters.  
 
-5- Conclusion:
-    Identified distinct customer segments based on purchasing behavior using both traditional clustering techniques and neural network-based dimensionality reduction methods.
-    Provided actionable insights for targeted marketing strategies, such as personalized promotions and product recommendations tailored to specific customer clusters.
+### 4. Autoencoder for Dimensionality Reduction  
+- Built and trained an **autoencoder neural network** for feature reduction.  
+- Used the encoder to transform data into a lower-dimensional space.  
+- Applied K-Means clustering on the reduced data.  
+- Analyzed and visualized cluster characteristics.  
+
+### 5. Conclusion  
+- Identified distinct customer segments based on purchasing behavior.  
+- Compared **traditional clustering (K-Means)** with **deep learning-based clustering (Autoencoder + K-Means)**.  
+- Provided insights for targeted marketing, such as personalized promotions and product recommendations.  
