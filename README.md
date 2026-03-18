@@ -45,4 +45,3 @@ These projects focus on foundational machine learning techniques. For production
 
 - Legal AI Assistant  
 - HR RAG System  
-- Face Verification System  
