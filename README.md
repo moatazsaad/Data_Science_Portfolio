@@ -3,10 +3,10 @@
 ## Overview
 This repository contains a collection of machine learning and data science projects covering classification, computer vision, time series forecasting, and NLP tasks. These projects focus on building strong fundamentals in data processing, modeling, and evaluation.
 
-## 📌 Purpose
+## Purpose
 These projects were developed to strengthen core machine learning skills and complement more advanced AI systems (e.g., LLMs and RAG applications) in my portfolio.
 
-## 📂 Projects Included
+## Projects Included
 - Sentiment Analysis (NLP)
 - Brain Tumor Detection & Segmentation (Computer Vision)
 - Chest X-Ray Disease Classification (Deep Learning)
@@ -17,7 +17,7 @@ These projects were developed to strengthen core machine learning skills and com
 - Rooftop Solar Panel Detection
 - Facial Keypoints Detection & Emotion Recognition
 
-## 🧱 Tech Stack
+## Tech Stack
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
@@ -31,7 +31,7 @@ These projects were developed to strengthen core machine learning skills and com
 - Time series forecasting techniques  
 - Computer vision and deep learning fundamentals  
 
-## 🔗 Other Deployed Projects (Streamlit)
+## Other Deployed Projects (Streamlit)
 
 Additional interactive ML applications:
 
@@ -40,7 +40,7 @@ Additional interactive ML applications:
 - [Customer Segmentation & Recommendations](LINK) – clustering + personalization  
 - [Restaurant Success Predictor](LINK) – business success prediction model  
 
-## ⚠️ Note
+## Note
 These projects focus on foundational machine learning techniques. For production-ready AI systems and deployed applications, refer to:
 
 - Legal AI Assistant  
