@@ -41,7 +41,7 @@ Additional interactive ML applications:
 - [Restaurant Success Predictor](LINK) – business success prediction model  
 
 ## Note
-These projects focus on foundational machine learning techniques. For production-ready AI systems and deployed applications, refer to:
+These projects focus on foundational machine learning techniques. For production-ready AI systems and deployed applications:
 
 - Legal AI Assistant  
 - HR RAG System  
